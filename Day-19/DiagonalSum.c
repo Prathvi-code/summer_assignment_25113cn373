@@ -22,10 +22,10 @@ int main ()
         {
             if(i==j)
             {
-            dsum = dsum + a[i][j];
+            dsum = dsum + a[i][j]; // dsum is sum of diagonal elements
             }
         }
-        offsum = offsum + a[i][3-i-1];
+        offsum = offsum + a[i][3-i-1]; // offsum is sum of off diagonal elements
     }
     printf("The sum of diagonal elements is: %d\n",dsum);
     printf("The sum of off diagonal elements is: %d",offsum);
